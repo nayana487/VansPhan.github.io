@@ -5,7 +5,7 @@ description: "Born Again"
 modified: 2015-05-22
 tags: [josie]
 image:
-  feature: abstract-3.jpg
+  feature: josiegrad.jpg
 ---
 
 ʕ￫ᴥ￩ʔ

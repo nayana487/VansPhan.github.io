@@ -1,6 +1,6 @@
-title:            VanJosie
+title:            Van & Josie
 description:      A blog for Van and Josie to share with the world
-disqus_shortname: vanphan
+disqus_shortname: vansphangithubio
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -9,9 +9,10 @@ url:
 
 # Owner/author information
 owner:
-  name:           Van Phan
+
+  name:           Van Phan  Josephine Kim
   avatar:         mainAvatar.jpg
-  bio:            "Josie & Van are da best"
+  bio:            "o(≧∇≦o)"
   email:          VanPhan514@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: vanphan       
