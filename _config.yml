@@ -17,14 +17,14 @@ owner:
   # Social networking links used in footer. Update and remove as you like.
   twitter: vanphan       
   facebook: TheVanPhan      
-  github: VansPhan        
+  github:        
   stackexchange:  
-  linkedin: vansphan      
-  instagram: vansphan    
+  linkedin:     
+  instagram:    
   flickr:         
-  tumblr: vanphan        
+  tumblr:        
   # google plus id, include the '+', eg +mmistakes
-  google_plus:    +VanPhans
+  google_plus:   
 
 # Background image to be tiled on all pages
 background: 
