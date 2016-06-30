@@ -6,19 +6,34 @@ body {
 	width: 100%;
 }
 
-nav {
-	padding: 20px;
-	position: fixed;
-  	top: 0;
-}
-
 ul.menu {
  	list-style-type: none;
-   	margin: 0;
+   	margin: 0 auto;
    	padding: 0;
    	overflow: hidden;
    	background-color: #262626;
    	border-radius: 25px;
+   	opacity: 0.9;
+}
+
+.container {
+	background-image: url("img/background.png");
+	height: 1200px;
+	background-size: cover;
+	padding-top: 200px;
+}
+
+.content {
+	background-color: #262626;
+	width: 100%;
+	height: 400px;
+	opacity: 0.9;
+}
+
+nav {
+	padding: 20px;
+	position: fixed;
+  	top: 0;
 }
 
 ul.menu li {
@@ -56,12 +71,6 @@ ul.menu li a:hover, ul.menu .home:hover {
 ul.menu li.icon {
 	display: none;
 	font-size: 20px;
-}
-
-.container {
-	background-image: url("img/background.png");
-	height: 1200px;
-	background-size: cover;
 }
 
 footer {
