@@ -1,7 +1,8 @@
 body {
 	background-color: #262626;
-	margin: 0 auto;
+	margin: 0px;
 	font-family: sans-serif;
+	padding: 0px;
 }
 
 nav {
@@ -56,12 +57,12 @@ ul.menu li.icon {
 	font-size: 20px;
 }
 
-/*.container {
-	background-image: url("img/background.png");
-	background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: center;
-}*/
+.container img {
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+		height: 100%;
+}
 
 footer {
 	background-color: yellow;
@@ -95,6 +96,3 @@ footer {
 		text-align: left;
 	}
 }
-
-
-
