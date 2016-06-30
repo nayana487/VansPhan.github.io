@@ -56,12 +56,17 @@ ul.menu li.icon {
 	font-size: 20px;
 }
 
-.container {
-
-}
+/*.container {
+	background-image: url("img/background.png");
+	background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+}*/
 
 footer {
 	background-color: yellow;
+	width: 0 auto;
+	height: 100px;
 }
 
 /*Media Stuff*/
