@@ -1,6 +1,7 @@
 body {
 	background-color: #262626;
 	margin: 0 auto;
+	font-family: sans-serif;
 }
 
 nav {
@@ -19,7 +20,7 @@ ul.menu li {
 	float: right;
 }
 
-ul.menu li a {
+ul.menu li a, ul.menu a {
 	display: inline-block;
 	color: #f2f2f2;
 	text-align: center;
@@ -28,9 +29,16 @@ ul.menu li a {
 	transition: 0.4s;
 	font-size: 20px;
 }
+
+ul.menu .home {
+	text-transform: uppercase;
+	float: right;
+}
+
 ul.menu img {
 	width: 100px;
 	height: 100px;
+	float: left;
 }
 
 ul.menu li a:hover {
@@ -40,10 +48,6 @@ ul.menu li a:hover {
 ul.menu li.icon {
 	display: none;
 	font-size: 20px;
-}
-
-.home {
-	float: left;
 }
 
 .container {
