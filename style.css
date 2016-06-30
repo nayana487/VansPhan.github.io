@@ -1,8 +1,9 @@
 body {
 	background-color: #262626;
-	margin: 0px;
+	margin: 0 auto;
 	font-family: sans-serif;
-	padding: 0px;
+	height: 100%;
+	width: 100%;
 }
 
 nav {
@@ -57,17 +58,15 @@ ul.menu li.icon {
 	font-size: 20px;
 }
 
-.container img {
-		margin: 0px;
-		padding: 0px;
-		width: 100%;
-		height: 100%;
+.container {
+	background-image: url("img/background.png");
+	height: 1200px;
 }
 
 footer {
 	background-color: yellow;
 	width: 0 auto;
-	height: 100px;
+	height: 100px
 }
 
 /*Media Stuff*/
@@ -96,3 +95,6 @@ footer {
 		text-align: left;
 	}
 }
+
+
+
