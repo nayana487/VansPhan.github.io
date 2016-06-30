@@ -61,6 +61,7 @@ ul.menu li.icon {
 .container {
 	background-image: url("img/background.png");
 	height: 1200px;
+	background-size: cover;
 }
 
 footer {
