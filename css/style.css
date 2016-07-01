@@ -6,7 +6,7 @@ body {
 	width: 100%;
 }
 
-h1	{
+h1, h3	{
 	color: #00CED1;
 	font-family: helvetica neue;
 }
@@ -23,7 +23,8 @@ ul.menu {
 
 .container {
 	background-image: url("../img/background.png");
-	height: 1200px;
+	height: 2200px;
+	width: 100%;
 	background-size: cover;
 	padding-top: 200px;
 }
@@ -33,7 +34,7 @@ ul.menu {
 	height: 500px;
 }
 
-.intro h1 {
+.intro h1, h3 {
 	text-align: center;
 	font-size: 500%;
 	font-weight: 700;
@@ -42,6 +43,7 @@ ul.menu {
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
+    text-shadow: -1px 0 #262626, 0 1px #262626, 1px 0 #262626, 0 -1px #262626;
 }
 
 @keyframes fadein {
@@ -78,6 +80,7 @@ ul.menu {
 	width: 100%;
 	height: 400px;
 	opacity: 0.9;
+	padding: 50px;
 }
 
 nav {
@@ -121,6 +124,13 @@ ul.menu li a:hover, ul.menu .home:hover {
 ul.menu li.icon {
 	display: none;
 	font-size: 20px;
+}
+
+article {
+	font-family: Georgia;
+	color: white;
+    line-height: 1.8;
+    font-size: 36px;
 }
 
 footer {
