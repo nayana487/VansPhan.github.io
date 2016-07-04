@@ -141,6 +141,9 @@ footer {
 
 /*Media Stuff*/
 
+/*Great work here making your site responsive! Looks like you're pretty close
+on getting this down.*/
+
 @media screen and (max-width: 680px) {
 	ul.menu li:not(:first-child) {display: none;}
 	ul.menu li.icon {
@@ -165,7 +168,3 @@ footer {
 		text-align: left;
 	}
 }
-
-
-
-
